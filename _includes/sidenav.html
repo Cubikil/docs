@@ -1,0 +1,62 @@
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+{%- if page_paths -%}
+
+
+
+<ul class="nav flex-column position-sticky">
+   
+        <li class="nav-item">
+            <span class="text-decoration-none text-dark fw-bold fs-5 mb-0 lh-1">Getting Started</span>
+           
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1" aria-current="page" href="{{ "/getting-started/" | relative_url }}">Introduction</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1 mb-3" aria-current="page" href="{{ "/getting-started/#invitation" | relative_url }}">Your Invitaion</a>
+        </li>
+        <li class="nav-item">
+            <span class="text-decoration-none text-dark fw-bold fs-5 mb-0 lh-1">Company Creation</span>
+            <a class="nav-link text-decoration-none mb-3 py-1" aria-current="page" href="#">Setting Up Your Company</a>
+           
+        </li>
+        <li class="nav-item">
+            <span class="text-decoration-none text-dark fw-bold fs-5 mb-0 lh-1">System Overview</span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1" aria-current="page" href="{{ "/dashboard-overview/" | relative_url }}">Overall Layout</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1" aria-current="page" href="{{ "/dashboard-overview/#CompantDashboard" | relative_url }}">Company Dahsboard</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1" aria-current="page" href="{{ "/dashboard-overview/#WaffleMenu" | relative_url }}">Waffle Menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1" aria-current="page" href="{{ "/dashboard-overview/#WaffleDropdown" | relative_url }}">Waffle Menu Dropdown</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1" aria-current="page" href="{{ "/dashboard-overview/#AccountAccess" | relative_url }}">Company Account Access</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1" aria-current="page" href="{{ "/dashboard-overview/#SettingsUserDropdown" | relative_url }}">Settings & User Dropdown</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1 mb-3" aria-current="page" href="{{ "/dashboard-components/" | relative_url }}">Dashboard Components</a>
+        </li>
+        <li class="nav-item">
+            <span class="text-decoration-none text-dark fw-bold fs-5 mb-0 lh-1">Unit Rate Plans</span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1 mb-3" aria-current="page" href="{{ "/unit-rate-plans/" | relative_url }}">Unit Rate Plans Overview</a>
+        </li>
+        <li class="nav-item">
+            <span class="text-decoration-none text-dark fw-bold fs-5 mb-0 lh-1">Unit Groups</span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-decoration-none py-1" aria-current="page" href="{{ "/unit-groups/" | relative_url }}">Unit Groups Overview</a>
+        </li>
+   </ul>
+
+   {%- endif -%}
