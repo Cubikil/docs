@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Getting Started
-description: An Introduction to using the Cubikil platform.
+description: An introduction to using the Cubikil platform
 permalink: /getting-started/
 ---
 
 <h2 class="mb-3 fs-2">Introduction</h2>
 
-<p class="lead mb-4">First off, we would like to thank you for choosing Cubikil as your facility management platform. We're excited to assist you with getting your facility up and running. With that said, the primary goal of this documentation is to give you and your staff a basic understanding of our system and how to use it. Keep in mind that we do offer in-person training that can help improve your experience.</p>
+<p class="lead mb-4">Firstly, we would like to thank you for choosing Cubikil as your facility management platform. We're excited to assist you with getting your facility up and running. With that being said, the primary goal of these documents is to give you and your staff a basic understanding of our system and how to use it. Keep in mind that we also offer in-person training that can further improve your experience.</p>
 
 <h3 class="mb-3 fs-4">Cubikil explained</h3>
 
@@ -15,7 +15,7 @@ permalink: /getting-started/
 
 <h3 class="mb-3 fs-4">Expectations of this documentation</h3>
 
-<p class="mb-4 lead">This documentation is specifically created to help you get a better understanding of how Cubikil works and how to use Cubikil in your day-to-day operation. We highly encourage you to schedule an appointment or virtual meeting if you this documentation is not answering your question or issue.</p>
+<p class="mb-4 lead">These documents were created to help you better understand how Cubikil works and how to effectively use the platform in your day-to-day operations. We encourage you to schedule an appointment or virtual meeting if the answers in these docs do not answer your question or issue.</p>
 
 <div class="alert bg-grad-2 text-white mb-4" role="alert">
 <i class="fa-solid fa-circle-exclamation"></i>
@@ -25,17 +25,17 @@ We do not charge any fee if you require support using Cubikil or Cubikil Merchan
 
 <h3 class="mb-3 fs-4">Performance & management of our system</h3>
 
-<p class="mb-4 lead">Cubikil was created with two things in mind, performance, and security. Our platform is a SaaS (Software as a System) solution. Therefore, you do not require any physical hardware to run Cubikil. Maintenance and platform upkeep is on us. We do however ask that you use secure passwords and make use of MFA (Multi Factor Authentication) functionality. </p>
+<p class="mb-4 lead">Cubikil was created with two things in mind - performance and security. Our platform is a SaaS (Software as a System ) solution. This means you don’t need any physical hardware to run Cubikil. Maintenance and platform upkeep is on us. We do however ask that you use secure passwords and make use of MFA (Multi-Factor Authentication). </p>
 
 <div class="alert bg-grad-2 text-white mb-4" role="alert">
 <i class="fa-solid fa-circle-exclamation"></i>
   <b class="mx-2">Important!</b>
-At this point we only allow Google or Microsoft integration when setting up your account with Cubikil. Please make sure to enable MFA (Multi Factor Authentication) on your Google or Microsoft account. 
+At this point we only allow Google or Microsoft integration when setting up your account with Cubikil. Please make sure to enable MFA (Multi-Factor Authentication) on your Google or Microsoft account.
 </div>
 
 <h3 class="mb-3 fs-4">Accepting Credit/Debit Card, ACH, EFT and E-Transfer</h3>
 
-<p class="mb-4 lead">Cubikil Merchant Services is use to process any form of online payment. This includes all major credit/debit cards, ACH payment (US clients), EFT payments and E-Transfers (Canadian clients). Cubikil Merchant Services are included, and processing payments will not cost you anything extra. We highly encourage all our customers to make use of Cubikil Merchant Services for seamless integration. For more information please refer to the Terms Of Service documentation that was signed as part of your onboarding. </p>
+<p class="mb-4 lead">Cubikil Merchant Services is used to process any form of online payment. This includes all major credit/debit cards, ACH payments (for U.S. clients), EFT payments, and E-Transfers (for Canadian clients). Cubikil Merchant Services are included, and processing payments will not cost you extra. We highly encourage all our customers to make use of Cubikil Merchant Services for seamless integration. For more information, please refer to the Terms Of Service documentation that was signed as part of your onboarding.</p>
 
 <h2 class="mb-3 fs-2" id="invitation">Your Invitation</h2>
 

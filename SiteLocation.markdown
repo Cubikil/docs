@@ -1,19 +1,19 @@
 ---
 layout: page
 title: Sites & Locations
-description: A quick breakdown of how to manage your sites or locations.
+description: A breakdown of how to manage your sites and locations
 permalink: /site-location/
 ---
 
 <h2 class="mb-3 fs-2">Site Overview</h2>
 
-<p class="lead">Sites and locations are meant for facilities with multiple physical locations. With Cubikil you can manage multiple locations all under one company. It’s important to note that there’s a distinct difference between Company’s and Sites.</p>
+<p class="lead">Sites & Locations are meant for facilities with multiple physical locations. With Cubikil you can manage multiple locations all under one company. It’s important to note that there’s a distinct difference between Companies and Sites</p>
 
-<p class="lead">Company’s are used when you have storage multiple storage facilities with different company names, directors, managers and owners. Whereas sites are used when your company owns multiple locations. For example: ABC Storage Washington, ABC Storage New York and ABC Storage New Mexico would use one company with multiple sites. </p>
+<p class="lead">Companies are used when you have multiple storage facilities with different company names, directors, managers, and owners. For example, ABC Storage Toronto, Epic Storage Knoxville and PRD Self Storage would all use separate company profiles within the Cubikil System. </p>
 
-<p class="lead">ABC Storage Toronto, Epic Storage Knoxville and PRD Self Storage would use separate company profiles within the Cubikil System. </p>
+<p class="lead">Sites are used when your company owns multiple locations. For example, ABC Storage Washington, ABC Storage New York and ABC Storage New Mexico would all be under one company profile with multiple sites.</p>
 
-<p class="lead mb-4">Below is an example of a storage facility that has one site added to the Cubikil system. There are not limits to how many sites you can add. </p>
+<p class="lead mb-4">Below is an example of a storage facility that has one site added to their Cubikil. There are no limits to how many sites you can add.</p>
 
 <img src="https://assets.cubikil.com/frontend/documentation/sites-locations.jpeg" class="img-fluid rounded-3 shadow-sm mb-4" />
 

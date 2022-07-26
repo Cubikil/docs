@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Setting Up Your Company
-description: A quick guide to creating a company on the Cubikil platform
+description: A quick guide to creating a company on Cubikil
 permalink: /company-setup/
 ---
 
@@ -18,6 +18,6 @@ Please inform your account manager if you'd like to add another company to your 
 <div class="bg-light rounded-3 p-3 d-flex flex-row justify-content-between">
 <b>Next up</b>
 <span>
-<a href="{{ "/dashboard-overview/" | relative_url }}" class="text-decoration-none fw-bold">Syatem Overview | Layout & Design</a>
+<a href="{{ "/dashboard-overview/" | relative_url }}" class="text-decoration-none fw-bold">System Overview | Layout & Design</a>
 </span>
 </div>
