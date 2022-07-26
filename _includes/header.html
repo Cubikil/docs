@@ -1,19 +1,246 @@
 <header class="site-header" role="banner">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
+        <a class="navbar-brand" href="{{ "/" | relative_url }}">
+          <img src="https://assets.cubikil.com/logo/cbk-logo-main.svg" width="150" alt="Cubikil Corporate Logo" />
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="{{ "/" | relative_url }}">
-            <img src="https://assets.cubikil.com/logo/cbk-logo-main.svg" width="150" alt="Cubikil Corporate Logo" />
-          </a>
+          
         
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-lg-block">
               <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                    <a class="nav-link border-0 btn bg-grad-2 text-white fw-medium px-3" aria-current="page" href="mailto:info@cubikil.com"><i class="fa-solid fa-envelope-open-text small me-3"></i>Contact Us</a>
               </li>
             </ul>
+            <a class="bg-primary-grad rounded-3 p-3 d-inline-flex flex-row juatify-content-between align-items-center text-decoration-none text-white gap-2 fw-bold mb-4 d-lg-none mt-3" href="{{ "/" | relative_url }}">
+              <i class="fa-solid fa-house"></i>
+              <span>Take Me Home</span>
+          
+            </a>
+            <div class="accordion d-lg-none" id="NavigationGeneral">
+              <div class="accordion-item border-0 mb-4 bg-transparent">
+                <h2 class="accordion-header p-0 bg-transparent mb-1" id="headingOne">
+                  <button class="accordion-button p-0 bg-transparent " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <span class="text-decoration-none text-dark fw-bold fs-6 mb-0 lh-1">Getting Started</span>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show border-0" aria-labelledby="headingOne">
+                  <div class="accordion-body p-0">
+                    <ul class="nav flex-column">
+                      <li class="nav-item">
+                          <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/getting-started/" | relative_url }}">Introduction</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/getting-started/#invitation" | relative_url }}">Your Invitaion</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item border-0 mb-4 bg-transparent">
+                  <h2 class="accordion-header p-0 bg-transparent mb-1" id="headingTwo">
+                    <button class="accordion-button p-0 bg-transparent " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                          <span class="text-decoration-none text-dark fw-bold fs-6 mb-0 lh-1">Company Creation</span>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse border-0" aria-labelledby="headingTwo">
+                    <div class="accordion-body p-0">
+                      <ul class="nav flex-column">
+                          <li class="nav-item">
+                 
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/company-setup/" | relative_url }}">Setting Up Your Company</a>
+                             
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="accordion-item border-0 mb-4 bg-transparent">
+                  <h2 class="accordion-header p-0 bg-transparent mb-1" id="heading3">
+                    <button class="accordion-button p-0 bg-transparent " type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                          <span class="text-decoration-none text-dark fw-bold fs-6 mb-0 lh-1">System Overview</span>
+                    </button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse border-0" aria-labelledby="heading3">
+                    <div class="accordion-body p-0">
+                      <ul class="nav flex-column">
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/dashboard-overview/" | relative_url }}">Overall Layout</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/dashboard-overview/#CompantDashboard" | relative_url }}">Company Dahsboard</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/dashboard-overview/#WaffleMenu" | relative_url }}">Waffle Menu</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/dashboard-overview/#WaffleDropdown" | relative_url }}">Waffle Menu Dropdown</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/dashboard-overview/#AccountAccess" | relative_url }}">Company Account Access</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/dashboard-overview/#SettingsUserDropdown" | relative_url }}">Settings & User Dropdown</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/dashboard-components/" | relative_url }}">Dashboard Components</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="accordion-item border-0 mb-4 bg-transparent">
+                  <h2 class="accordion-header p-0 bg-transparent mb-1" id="heading4">
+                    <button class="accordion-button p-0 bg-transparent " type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                          <span class="text-decoration-none text-dark fw-bold fs-6 mb-0 lh-1">Unit Rate Plans</span>
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse border-0" aria-labelledby="heading4">
+                    <div class="accordion-body p-0">
+                      <ul class="nav flex-column">
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/unit-rate-plans/" | relative_url }}">Unit Rate Plans Overview</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="accordion-item border-0 mb-4 bg-transparent">
+                  <h2 class="accordion-header p-0 bg-transparent mb-1" id="heading5">
+                    <button class="accordion-button p-0 bg-transparent " type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                          <span class="text-decoration-none text-dark fw-bold fs-6 mb-0 lh-1">Unit Groups</span>
+                    </button>
+                  </h2>
+                  <div id="collapse5" class="accordion-collapse collapse border-0" aria-labelledby="heading4">
+                    <div class="accordion-body p-0">
+                      <ul class="nav flex-column">
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/unit-groups/" | relative_url }}">Unit Groups Overview</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/unit-groups/#AddingUnitGroup" | relative_url }}">Adding Unit Groups</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="accordion-item border-0 mb-4 bg-transparent">
+                  <h2 class="accordion-header p-0 bg-transparent mb-1" id="heading6">
+                    <button class="accordion-button p-0 bg-transparent " type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                          <span class="text-decoration-none text-dark fw-bold fs-6 mb-0 lh-1">Sites & Locations</span>
+                    </button>
+                  </h2>
+                  <div id="collapse6" class="accordion-collapse collapse border-0" aria-labelledby="heading4">
+                    <div class="accordion-body p-0">
+                      <ul class="nav flex-column">
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/site-location/" | relative_url }}">Site Overview</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/site-location/#AddingSite" | relative_url }}">Adding A New Site</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="accordion-item border-0 mb-4 bg-transparent">
+                  <h2 class="accordion-header p-0 bg-transparent mb-1" id="heading7">
+                    <button class="accordion-button p-0 bg-transparent " type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                          <span class="text-decoration-none text-dark fw-bold fs-6 mb-0 lh-1">Rentable Units</span>
+                    </button>
+                  </h2>
+                  <div id="collapse7" class="accordion-collapse collapse border-0" aria-labelledby="heading4">
+                    <div class="accordion-body p-0">
+                      <ul class="nav flex-column">
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/rentable-units/" | relative_url }}">Units Overview</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/unit-schedular/" | relative_url }}">Understanding Schedular</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Adding Unit Amenities </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Unit Status Box</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Adding Unit Groups </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Adding Unit Rate Plan</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="accordion-item border-0 mb-4 bg-transparent">
+                  <h2 class="accordion-header p-0 bg-transparent mb-1" id="heading8">
+                    <button class="accordion-button p-0 bg-transparent " type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                          <span class="text-decoration-none text-dark fw-bold fs-6 mb-0 lh-1">Customers</span>
+                    </button>
+                  </h2>
+                  <div id="collapse8" class="accordion-collapse collapse border-0" aria-labelledby="heading8">
+                    <div class="accordion-body p-0">
+                      <ul class="nav flex-column">
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none fw-medium py-1 disabled" aria-current="page" href="#" disabled>Adding Customers</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-decoration-none fw-medium py-1 disabled" aria-current="page" href="#" disabled>Adding Payment Methods</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="accordion-item border-0 mb-4 bg-transparent">
+                  <h2 class="accordion-header p-0 bg-transparent mb-1" id="heading9">
+                    <button class="accordion-button p-0 bg-transparent " type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                          <span class="text-decoration-none text-dark fw-bold fs-6 mb-0 lh-1">Reservations</span>
+                    </button>
+                  </h2>
+                  <div id="collapse9" class="accordion-collapse collapse border-0" aria-labelledby="heading9">
+                    <div class="accordion-body p-0">
+                      <ul class="nav flex-column">
+                         
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Available Unit Search</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Adding Customer Search</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Booking Your Customer</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Reservation Overview</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Converting Billing To Invoices</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Generate Order</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Generate Invoice</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Confirm Reservation</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Schedule A Move-In</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Schedule A Move-Out</a>
+                  </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+            </div>
         </div>
       </div>
     </nav>

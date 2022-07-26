@@ -1,7 +1,11 @@
 {%- assign default_paths = site.pages | map: "path" -%}
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 {%- if page_paths -%}
+<a class="bg-primary-grad rounded-3 p-3 d-flex flex-row juatify-content-between align-items-center text-decoration-none text-white gap-2 fw-bold mb-4" href="{{ "/" | relative_url }}">
+    <i class="fa-solid fa-house"></i>
+    <span>Take Me Home</span>
 
+</a>
 <div class="accordion" id="NavigationGeneral">
     <div class="accordion-item border-0 mb-3">
       <h2 class="accordion-header p-0 bg-transparent mb-1" id="headingOne">
@@ -141,7 +145,7 @@
                     <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/rentable-units/" | relative_url }}">Units Overview</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Understanding Schedular</a>
+                    <a class="nav-link text-decoration-none py-1 fw-medium" aria-current="page" href="{{ "/unit-schedular/" | relative_url }}">Understanding Schedular</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-decoration-none py-1 disabled fw-medium" aria-current="page" href="#" disabled>Adding Unit Amenities </a>

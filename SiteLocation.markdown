@@ -36,19 +36,19 @@ Always make sure to check with your account manager when adding a site. Chances 
 
 <p class="lead mb-4">The following steps are involved in adding a new Site in Cubikil:</p>
 
-<div class="d-flex flex-row gap-2 align-items-center mb-3">
+<div class="d-flex flex-row gap-2 align-items-center mb-3 lead">
 <i class="fa-solid fa-circle-1 fs-1"></i><span><b>Click on the Create New Button.</b> Once clicked, you will be navigated to the Create New Site page.</span>
 </div>
 <img src="https://assets.cubikil.com/frontend/documentation/add-new-btn.jpeg" class="img-fluid rounded-3 shadow-sm mb-4" />
 
-<div class="d-flex flex-row gap-2 align-items-center mb-3">
+<div class="d-flex flex-row gap-2 align-items-center mb-3 lead">
 <i class="fa-solid fa-circle-2 fs-1"></i><span><b>Add Your New Site Details.</b> Add your desired site details and full address. Once done, hit the Save & Close button.</span>
 </div>
-<img src="https://assets.cubikil.com/frontend/documentation/create-new-site.jpeg" class="img-fluid rounded-3 shadow-sm mb-4" />
+<img src="https://assets.cubikil.com/frontend/documentation/create-new-site.jpeg" class="img-fluid rounded-3 shadow-sm mb-5" />
 
 <div class="bg-light rounded-3 p-3 d-flex flex-row justify-content-between">
 <b>Next up</b>
 <span>
-<a href="{{ "/storage-units/" | relative_url }}" class="text-decoration-none fw-bold">Storage Units</a>
+<a href="{{ "/rentable-units/" | relative_url }}" class="text-decoration-none fw-bold">Storage Units</a>
 </span>
 </div>

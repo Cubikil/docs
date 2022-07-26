@@ -33,7 +33,7 @@ permalink: /unit-rate-plans/
 
 <h3 class="mb-3 fs-4" id="CompantDashboard">Rate Plan Details</h3>
 <p class="lead mb-4">Below is an example of a 10x10 unit rate plan. As show below, this rate plan is set to be triggered once a week with a billing amount of $125. You’ll also notice that this rate plan is set to active.</p>
-<img src="https://assets.cubikil.com/frontend/documentation/rate-plan-details.jpeg" class="img-fluid rounded-3 shadow-sm mb-4" />
+<img src="https://assets.cubikil.com/frontend/documentation/rate-plan-details.jpeg" class="img-fluid rounded-3 shadow-sm mb-5" />
 
 <div class="bg-light rounded-3 p-3 d-flex flex-row justify-content-between">
 <b>Next up</b>

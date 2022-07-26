@@ -27,12 +27,12 @@ Do not get unit amenities and unit groups mixed up. They can essentially serve a
 
 <p class="lead mb-4">The following steps are involved in creating a new unit group:</p>
 
-<div class="d-flex flex-row gap-2 align-items-center mb-3">
+<div class="d-flex flex-row gap-2 align-items-center mb-3 lead">
 <i class="fa-solid fa-circle-1 fs-1"></i><span><b>Click on the Create New Button.</b> Once clicked, a sidebar will appear.</span>
 </div>
 <img src="https://assets.cubikil.com/frontend/documentation/add-new-btn.jpeg" class="img-fluid rounded-3 shadow-sm mb-4" />
 
-<div class="d-flex flex-row gap-2 align-items-center mb-3">
+<div class="d-flex flex-row gap-2 align-items-center mb-3 lead">
 <i class="fa-solid fa-circle-2 fs-1"></i><span><b>Add Desired Details.</b> Add your desired unit group name and description. Make sure to be as exact as possible. Once done, hit the Save & Close button.</span>
 </div>
 <img src="https://assets.cubikil.com/frontend/documentation/add-unit-group.jpeg" class="img-fluid rounded-3 shadow-sm mb-4" />

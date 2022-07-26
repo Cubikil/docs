@@ -55,3 +55,9 @@ Make sure to select these for all units you add to your facility. This will help
   <b class="mx-2">Important!</b>
 When creating a new rentable unit, the unit will automatically be set to Unavailable. Make sure to mark your unit as <b>“Available”</b> before starting a availability search. 
 </div>
+<div class="bg-light rounded-3 p-3 d-flex flex-row justify-content-between">
+<b>Next up</b>
+<span>
+<a href="{{ "/unit-schedular/" | relative_url }}" class="text-decoration-none fw-bold">Rentable Units Schedular</a>
+</span>
+</div>

@@ -11,11 +11,11 @@ permalink: /getting-started/
 
 <h3 class="mb-3 fs-4">Cubikil explained</h3>
 
-<p class="mb-4">Cubikil is an online facility management platform that’s specifically designed to manage self-storage, campground, and rental equipment.</p>
+<p class="mb-4 lead">Cubikil is an online facility management platform that’s specifically designed to manage self-storage, campground, and rental equipment.</p>
 
 <h3 class="mb-3 fs-4">Expectations of this documentation</h3>
 
-<p class="mb-4">This documentation is specifically created to help you get a better understanding of how Cubikil works and how to use Cubikil in your day-to-day operation. We highly encourage you to schedule an appointment or virtual meeting if you this documentation is not answering your question or issue.</p>
+<p class="mb-4 lead">This documentation is specifically created to help you get a better understanding of how Cubikil works and how to use Cubikil in your day-to-day operation. We highly encourage you to schedule an appointment or virtual meeting if you this documentation is not answering your question or issue.</p>
 
 <div class="alert bg-grad-2 text-white mb-4" role="alert">
 <i class="fa-solid fa-circle-exclamation"></i>
@@ -25,7 +25,7 @@ We do not charge any fee if you require support using Cubikil or Cubikil Merchan
 
 <h3 class="mb-3 fs-4">Performance & management of our system</h3>
 
-<p class="mb-4">Cubikil was created with two things in mind, performance, and security. Our platform is a SaaS (Software as a System) solution. Therefore, you do not require any physical hardware to run Cubikil. Maintenance and platform upkeep is on us. We do however ask that you use secure passwords and make use of MFA (Multi Factor Authentication) functionality. </p>
+<p class="mb-4 lead">Cubikil was created with two things in mind, performance, and security. Our platform is a SaaS (Software as a System) solution. Therefore, you do not require any physical hardware to run Cubikil. Maintenance and platform upkeep is on us. We do however ask that you use secure passwords and make use of MFA (Multi Factor Authentication) functionality. </p>
 
 <div class="alert bg-grad-2 text-white mb-4" role="alert">
 <i class="fa-solid fa-circle-exclamation"></i>
@@ -35,13 +35,13 @@ At this point we only allow Google or Microsoft integration when setting up your
 
 <h3 class="mb-3 fs-4">Accepting Credit/Debit Card, ACH, EFT and E-Transfer</h3>
 
-<p class="mb-4">Cubikil Merchant Services is use to process any form of online payment. This includes all major credit/debit cards, ACH payment (US clients), EFT payments and E-Transfers (Canadian clients). Cubikil Merchant Services are included, and processing payments will not cost you anything extra. We highly encourage all our customers to make use of Cubikil Merchant Services for seamless integration. For more information please refer to the Terms Of Service documentation that was signed as part of your onboarding. </p>
+<p class="mb-4 lead">Cubikil Merchant Services is use to process any form of online payment. This includes all major credit/debit cards, ACH payment (US clients), EFT payments and E-Transfers (Canadian clients). Cubikil Merchant Services are included, and processing payments will not cost you anything extra. We highly encourage all our customers to make use of Cubikil Merchant Services for seamless integration. For more information please refer to the Terms Of Service documentation that was signed as part of your onboarding. </p>
 
 <h2 class="mb-3 fs-2" id="invitation">Your Invitation</h2>
 
-Cubikil is an invite-only facility management solution. You can only get full access to our platform once you’ve agreed to our Terms Of Service and we’ve conducted a background check of your facility. We do this to ensure that our customers are legitimate and to curb any potential fraud activity.
+<p class="lead">Cubikil is an invite-only facility management solution. You can only get full access to our platform once you’ve agreed to our Terms Of Service and we’ve conducted a background check of your facility. We do this to ensure that our customers are legitimate and to curb any potential fraud activity.</p>
 
-<p class="mb-5">You will receive an invite-only email from us with a link to get your company and facility up and running using our platform. Please note, that initial company and facility setup can take time, this is part of our process to ensure legitimacy. Please make sure to reach out to your account manger if you require a status update.</p>
+<p class="mb-5 lead">You will receive an invite-only email from us with a link to get your company and facility up and running using our platform. Please note, that initial company and facility setup can take time, this is part of our process to ensure legitimacy. Please make sure to reach out to your account manger if you require a status update.</p>
 
 <div class="bg-light rounded-3 p-3 d-flex flex-row justify-content-between">
 <b>Next up</b>
