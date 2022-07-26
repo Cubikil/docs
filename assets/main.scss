@@ -3,7 +3,7 @@
 ---
 
 // Required
-@import "/bootstrap/scss/functions";
+@import "bootstrap/scss/functions";
 
 // Default variable overrides
 $body-bg: #fff;
@@ -18,7 +18,7 @@ $btn-font-weight:500;
 $lead-font-weight: 400;
 
 // Required
-@import "/bootstrap/scss/bootstrap";
+@import "bootstrap/scss/bootstrap";
 // etc
 
 .bg-primary-grad
