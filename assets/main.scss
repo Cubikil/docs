@@ -17,9 +17,23 @@ $btn-font-weight:500;
 
 $lead-font-weight: 400;
 
+$accordion-button-focus-box-shadow:none;
+
+
 // Required
 @import "bootstrap/scss/bootstrap";
 // etc
+
+
+.accordion-button
+{
+  box-shadow: none!important;
+}
+
+.fw-medium
+{
+  font-weight:500!important;
+}
 
 .bg-primary-grad
 {
