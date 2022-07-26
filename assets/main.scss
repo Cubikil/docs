@@ -1,0 +1,37 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Required
+@import "bootstrap/scss/functions";
+
+// Default variable overrides
+$body-bg: #fff;
+$body-color: #41484B;
+$primary: #EC008C;
+$light:#f1f1f1;
+$dark:#394960;
+
+//Buttons
+$btn-font-weight:500;
+
+$lead-font-weight: 400;
+
+// Required
+@import "bootstrap/scss/bootstrap";
+// etc
+
+.bg-primary-grad
+{
+  background: linear-gradient(134.38deg, #EC008C 1.58%, #FC6767 97.42%);
+}
+
+.bg-grad-2
+{
+  background: linear-gradient(89.71deg, #3882F0 0.28%, #5469D4 109.51%);
+}
+
+.bg-grad-3
+{
+  background: linear-gradient(89.71deg, #00AC83 0.28%, #25B78D 109.51%);
+}
