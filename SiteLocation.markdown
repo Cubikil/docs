@@ -23,7 +23,7 @@ permalink: /site-location/
 <h3 class="mb-3 fs-5">Site City</h3>
 <p class="lead mb-4">The City where the site is located.</p>
 
-<h3 class="mb-3 fs-5">Site State or Province</h3>
+<h3 class="mb-3 fs-5">Site state or province</h3>
 <p class="lead mb-4">The State or Province where the site is located.</p>  
 
 <div class="alert bg-grad-2 text-white mb-4" role="alert">
