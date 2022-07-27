@@ -24,6 +24,6 @@ permalink: /unit-schedular/
 <div class="bg-light rounded-3 p-3 d-flex flex-row justify-content-between">
 <b>Next up</b>
 <span>
-<a href="{{ "/rentable-units/" | relative_url }}" class="text-decoration-none fw-bold">Adding Unit Amenities</a>
+<a href="{{ "/unit-amenities/" | relative_url }}" class="text-decoration-none fw-bold">Adding Unit Amenities</a>
 </span>
 </div>
